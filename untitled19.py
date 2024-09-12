@@ -13,7 +13,7 @@ pip install langchain_groq
 
 from langchain_groq import ChatGroq
 
-llama3 = ChatGroq(api_key="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", model="llama3-8b-8192")
+llama3 = ChatGroq(api_key="YOUR_API_KEY", model="llama3-8b-8192")
 
 llama3
 
